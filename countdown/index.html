@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to 2021</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="countdown.css" type="text/css"/>
+</head>
+<body>
+	<div class="firework" id="firework">
+	    <div class="container" style="z-index: 9">
+	        <h1>HAPPY NEW YEAR 2021</h1>
+		    <div class="wrapper">
+		        <div class="clock">
+		            <div class="column days">
+		                <div class="timer" id="days"></div>
+		                <div class="text">NGÀY</div>
+		            </div>
+		            <div class="timer days">:</div>
+		            <div class="column">
+		                <div class="timer" id="hours"></div>
+		                <div class="text">GIỜ</div>
+		            </div>
+		            <div class="timer">:</div>
+		            <div class="column">
+		                <div class="timer" id="minutes"></div>
+		                <div class="text">PHÚT</div>
+		            </div>
+		            <div class="timer">:</div>
+		            <div class="column">
+		                <div class="timer" id="seconds"></div>
+		                <div class="text">GIÂY</div>
+		            </div>
+		        </div>
+		    </div>
+	    </div>
+	</div>
+		<script src="jquery-3.2.1.min.js"></script>
+		<script src="jquery.fireworks.js"></script>
+		<script>	
+			$('#firework').fireworks();   
+		</script>
+        <script type="text/javascript" src="moment.js"></script>
+        <script type="text/javascript" src="moment-timezone-with-data.js"></script>
+        <script type="text/javascript" src="timer.js"></script>
+</body>
+</html>
